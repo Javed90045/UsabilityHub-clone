@@ -1,0 +1,167 @@
+@media screen and (max-width: 1024px) {
+    .nav-toggle
+    {
+        display: block;
+        margin-right: 20px;
+        color: black;
+    }
+    .nav-links
+    {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+    }
+    .nav-links.active
+    {
+        left: 0;
+    }
+    .nav-links ul
+    {
+        flex-direction: column;
+    }
+
+    .main-nav
+    {
+        overflow: initial;
+    }
+
+    .logos
+    {
+        margin: 40px 20px 0px 20px;
+    }
+    .feature-header
+    {
+        margin-bottom: 40px;
+    }
+    .cta-section
+    {
+        padding: 50px;
+    }
+    .cta-section-container
+    {
+        gap: 30px;
+
+    }
+} 
+
+@media screen and (max-width: 768px)
+{
+    .example-header
+    {
+        /* gap: 40px; */
+        margin-top: 20px;
+    }
+
+    .example-card
+    {
+        width: calc(50% - 10px);
+        height: 150px;
+    }
+    .example-area
+    {
+        gap: 20px;
+    }
+   
+}
+@media screen and (max-width: 425px) {
+    
+
+    header
+    {
+        padding: 20px var(--pading-inline-section);
+    }
+    .header-section
+    {
+        gap: 10px;
+        flex-direction: column-reverse;
+    }
+    .header-left
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .header-left h1
+    {
+        padding-bottom: 20px;
+    }
+    .primary-button
+    {
+        width: 100%;
+        text-align: center;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    
+    h2{
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .features-section
+    {
+        padding: 40px var(--pading-inline-section) 0;
+    }
+    .features-card
+    {
+        max-width: 100%;
+    }
+    .big-feature-container
+    {
+        flex-direction: column;
+    }
+    .example-header
+    {
+        text-align: center;
+    }
+    .example-area
+    {
+        flex-direction: column;
+    }
+    .example-card
+    {
+        width: 100%;
+        min-height: 200px;
+    }
+    .cta-section
+    {
+        text-align: center;
+        padding: 40px 20px;
+    }
+    .cta-section-container
+    {
+        gap: 15px;
+    }
+    .footer-container
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: stretch;
+    }
+    .link-column
+    {
+        align-items: center;
+        gap: 10px;
+    }
+    .sub-footer-container
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-text
+    {
+        text-align: center;
+    }
+
+}
